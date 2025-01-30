@@ -127,7 +127,7 @@ print(a)"""
 
 
 #dictionaries
-x={
+"""x={
     "name":"shasanka acharya",
     "age":[20, 16, 17],
     "roll":{
@@ -139,6 +139,39 @@ x={
 print(x["age"])
 print(x.keys())
 print(x['roll']['a'])
-print(x['roll'].keys())
+print(x['roll'].keys())"""
+
+
+
+#write a program to present a report card of a student incuding name,age,roll number and marks as well as percentage
+a={
+    "name":input("enter the name of student"),"age":int(input("enter the age of student")),
+    "roll":int(input("enter the roll no. of student")),
+    "marks":{
+        "math":int(input("enter the marks of mathematics")),
+        "science":int(input("enter the marks of science")),
+        "English":int(input("enter the marks of english"))
+    }
+}
+print("------Report Card------")
+print("Enter the name of student:",a["name"])
+print("Enter the age of student:",a["age"])
+print("Enter the roll no. of student:",a["roll"])
+
+print("Enter the marks of mathematics",a["marks"]["math"])
+print("Enter the marks of science",a["marks"]["science"])
+print("Enter the marks of English",a["marks"]["English"])
+total=a["marks"]["math"]+a["marks"]["science"]+a["marks"]["English"]
+percentage=total/3
+print("total marks is:",total)
+print(f"percentage :{percentage}%")  
+if percentage>40:
+    print("Result:Passed🟩")
+elif percentage==40:
+    print("Result:Passed🟩")
+if percentage<40:
+    print("Result: fail🔴") 
+
+
 
 
