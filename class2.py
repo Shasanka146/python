@@ -161,8 +161,8 @@ print(f"simple interest with default parameter{simple_interest(5000,5)}")
 print(f"simple interest without default parameter{simple_interest(5000,5,7)}")"""
 
 
-
-def add(x,y,*args):
+# count and sum of args and unpack number
+"""def add(x,y,*args):
     sum=0
     print(args)
     for num in args:
@@ -172,9 +172,22 @@ def add(x,y,*args):
 result = add(1,2,3,4,5)
 print("sum:",result)
 x,y,*unpack=[1,2,3,4,5,6]
-print(unpack)
+print(unpack)"""
 
 
+#
+a=[]
+num=int(input("Enter the range of number:"))
+for i in range(num):
+    c=int(input(f"enter the {i+1}th term"))
+    a.append(c)
+def add(*args):
+    sum=0
+    for b in args:
+        sum+=b
+    return sum
+result=add(*a)
+print("sum:",result)
 
 
 
