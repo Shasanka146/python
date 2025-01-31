@@ -175,8 +175,8 @@ x,y,*unpack=[1,2,3,4,5,6]
 print(unpack)"""
 
 
-#
-a=[]
+#program by using function args 
+"""a=[]
 num=int(input("Enter the range of number:"))
 for i in range(num):
     c=int(input(f"enter the {i+1}th term"))
@@ -187,9 +187,44 @@ def add(*args):
         sum+=b
     return sum
 result=add(*a)
-print("sum:",result)
+print("sum:",result)"""
+#Mini project to perform on student management system
+student[]
+def add_student():
+    name:input("Name of student:\t")
+    roll:int(input("Roll number of student:\t"))
+    age:int(input("Age of student:\t"))
 
+s={
+    "name":name,
+    "roll":roll,
+    "age":age
 
+    
+}
+student.append(s)
+def display_student():
+    print()
+def search_student():
+    print()
+def update_student():
+    print()
+def delete_student():
+    print()
+print("---Student Management System---\n 1.Add Student\n 2.Display All Students\n 3.Search Student\n 4.Update Student\n 5.Delete Student\n 6.Exit")
+choice=input("Enter your choice(1-6):")
+if choice=="1":
+    add_student()
+elif choice=="2":
+    display_student()
+elif choice=="3":
+    search_student()
+elif choice=="4":
+    update_student()
+elif choice=="5":
+    delete_student()
+else:
+    print("invalid choice please try again")
 
 
 
