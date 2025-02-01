@@ -54,5 +54,16 @@ except ValueError as e:
 result=factorial(5)
 print("factorial:",result)
    """ 
+#sum of natural number
+"""def sum(n):
+    if n==0:
+        return 0
+    else:
+        return n+sum(n-1)
+result=sum(10)
+print("sum:",result)"""
+
+
+
 
 
