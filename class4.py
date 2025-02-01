@@ -44,4 +44,15 @@ try:
     triangle(x,y,z)
 except ValueError as e:
     print(e)"""
+    #recursive function
+"""def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
     
+result=factorial(5)
+print("factorial:",result)
+   """ 
+
+
