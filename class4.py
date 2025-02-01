@@ -73,6 +73,17 @@ for i in range(10):
     print(fibonacci(i))"""
 
 
+#function overloading
+
+"""def sum(num1,num2=0,num3=0):
+    print(num1+num2+num3)
+num1=5
+num2=7
+num3=10
+sum(num1)
+sum(num1,num2)
+sum(num1,num2,num3)"""
+
 
 
 
