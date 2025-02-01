@@ -85,7 +85,15 @@ sum(num1,num2)
 sum(num1,num2,num3)"""
 
 
-
-
-
-
+  
+# number=[1,2,3,4,5]
+# squares=list(filter(lambda x:x%2==0, number))
+# print(f"Squares: {squares}")
+"""list ma vako element ko sum """
+number=[1,2,3,4,5]
+sum=reduce(lambda x,y:x+y, number)
+print(f"Sum is {sum}")
+ #lambda function 
+number=[1,2,3,4,5,6,7,8,9]
+even_number=list(filter(lambda x:x%2==0,number))
+print(f"even number:{even_number}")
