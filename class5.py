@@ -22,7 +22,7 @@ print(student1.get_name())
 print(student1.upper_name())"""
 
 #program to change address of student using class and object
-
+"""
 student=[]
 class A:
     def __init__(self,name,address):
@@ -53,8 +53,46 @@ for i in student:
 
 print(student)
 for i in student:
-    print(f"Name:{i.name},address:{i.address}")
+    print(f"Name:{i.name},address:{i.address}")"""
 
+"""
+class Animal:
+    def __init__(self,name,age,color):
+        self.name=name
+        self.age=age
+        self.color=color
+
+    def speak(self):
+        return "speak"
+    def wag_tail(self):
+        return "wag"
+class Dog(Animal):
+    def __init__(self,name,age,color,breed):
+        super().__init__(self,name,age,color)
+        self.breed=breed
+    def speak(self):
+        return "bark"
+
+class Cat(Animal):
+    def __init__(self,name,age,color,breed):
+        super().__init__(self,name,age,color)
+        self.breed=breed
+    def speak(self):
+        return "meow"
+    
+cat1=Cat('kitty',5,'black','persian')
+print(cat1.speak())
+dog1=dog('jonson',7,'golden','german-shepherd')
+print(Dog1.speak())
+"""
+
+   #list compression technique     
+student1=[]
+for i in range(1,10):
+    student1.append(i)
+student2=[i for i in range(1,10)]
+print(student1,student2)
+        
 
 
     
