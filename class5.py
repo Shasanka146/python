@@ -87,12 +87,25 @@ print(Dog1.speak())
 """
 
    #list compression technique     
-student1=[]
-for i in range(1,10):
-    student1.append(i)
-student2=[i for i in range(1,10)]
-print(student1,student2)
-        
+# student1=[]
+# for i in range(1,10):
+#     student1.append(i)
+# student2=[i for i in range(1,10)]
+# print(student1,student2)
+#comprehension of inheritance      
+class Root:
+    f='root'
+class A(Root):
+    f='A'
+class B(Root):
+    f='B'
+class C(A,B):
+    fx='C'
+
+c=C()
+print(c.f)
+print(C.__mro__)
+print([cls.__name__ for cls in C.__mro__])
 
 
     
