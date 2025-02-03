@@ -39,7 +39,7 @@ print(command)"""
 
 
 #program
-commands={}
+"""commands={}
 
 def command(func):
     def wrapper():
@@ -68,8 +68,17 @@ tey()
 print(tey.__name__)
 input_user=input("enter what you want")
 commands[input_user]()
-print(command)
+print(command)"""
 
-    
-
+# ramdom
+import random
+random_num=random.randint(1,11)
+print(random_num)
+random_num=random.randint(1,11)
+print(random_num)
+sports=['football','cricket','basketball','volleyball']
+random_sport=random.choice(sports)
+print(random_sport)
+random_sport=random.choice(sports)
+print(random_sport)
 
