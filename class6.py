@@ -70,8 +70,8 @@ input_user=input("enter what you want")
 commands[input_user]()
 print(command)"""
 
-# ramdom
-import random
+# random
+"""import random
 random_num=random.randint(1,11)
 print(random_num)
 random_num=random.randint(1,11)
@@ -80,5 +80,22 @@ sports=['football','cricket','basketball','volleyball']
 random_sport=random.choice(sports)
 print(random_sport)
 random_sport=random.choice(sports)
-print(random_sport)
+print(random_sport)"""
+
+#program to guess number
+import random
+random_num=random.randint(1,11)
+for i in range(0,4):
+    print(f"you have {4-i} lives")
+    user=int(input("Guess the number from 1 to 10 :"))
+    if random_num==user:
+        print("congrats! You Won")
+        break
+    elif random_num<user:
+        print("The number is smaller.\n Put greater then previous one")
+    elif random_num>user:
+            print("the number is greater.\nPut smaller then previous one")
+else :
+    print("You loose!")
+    
 
