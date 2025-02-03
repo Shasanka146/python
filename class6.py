@@ -14,7 +14,7 @@ hello()"""
 
 #decorator used in large scale
 
-commands={}
+"""commands={}
 
 def command(func):
     def wrapper():
@@ -35,8 +35,40 @@ commands['hello']()    #function calling
 print(command)
 
 commands['tey']()
-print(command)
+print(command)"""
 
+
+#program
+commands={}
+
+def command(func):
+    def wrapper():
+        commands[func.__name__]=func #func.__name__ = 'tey' = tey()
+    return wrapper
+
+@command
+def hello():
+    print("hello world")
+@command
+def greeting():
+    print("namaste")
+
+@command
+def tey():
+    print("this is tey")
+
+print(hello.__name__)
+hello()
+print(hello.__name__)
+print(greeting.__name__)
+greeting()
+print(greeting.__name__)
+print(tey.__name__)
+tey()
+print(tey.__name__)
+input_user=input("enter what you want")
+commands[input_user]()
+print(command)
 
     
 
