@@ -144,7 +144,7 @@ print(x['roll'].keys())"""
 
 
 #write a program to present a report card of a student incuding name,age,roll number and marks as well as percentage
-a={
+"""a={
     "name":input("enter the name of student"),"age":int(input("enter the age of student")),
     "roll":int(input("enter the roll no. of student")),
     "marks":{
@@ -170,8 +170,19 @@ if percentage>40:
 elif percentage==40:
     print("Result:Passed🟩")
 if percentage<40:
-    print("Result: fail🔴") 
+    print("Result: fail🔴") """
 
-
+#swappint two numbers using only to variables
+"""a=int(input("enter the first number:"))
+b=int(input("enter the second number:"))
+print(f"a={a}")
+print(f"b={b}")
+a=a+b
+b=a-b
+a=a-b
+print(
+    f"after swapping a={a} and b={b}"
+)
+   """ 
 
 
