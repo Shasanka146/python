@@ -1,6 +1,6 @@
 print('My First Python Class')
 #Arthimetic operation
-"""a="Shasanka Acharya"
+a="Shasanka Acharya"
 print(a)
 a=15
 print(a)
@@ -24,15 +24,14 @@ print(int(a))
 print(float(a))
 
 
-print(float(a))
-a=input("enter a number")
+print(float(a))("enter a number")
 b=input("enter a number")
 print(a+b)
 
 
 a=int(input("enter a number"))
 b=int(input("enter a number"))
-print(a+b)"""
+print(a+b)
 
 
 
@@ -172,7 +171,7 @@ elif percentage==40:
 if percentage<40:
     print("Result: fail🔴") """
 
-#swappint two numbers using only to variables
+#swapping two numbers using only to variables
 """a=int(input("enter the first number:"))
 b=int(input("enter the second number:"))
 print(f"a={a}")

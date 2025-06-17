@@ -7,7 +7,7 @@ content=file.read()
 print(content)
 file.close()"""
 
-
+#file handling using single dictonary
 import json
 dict={
     "name":"",
@@ -19,3 +19,6 @@ with open("text.json","w")as f:
 with open("text.json","r")as f:
     loaded =json.load(f)
 print(loaded)
+
+
+#file handling using multiple dictonary

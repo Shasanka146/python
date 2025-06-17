@@ -83,7 +83,7 @@ random_sport=random.choice(sports)
 print(random_sport)"""
 
 #program to guess number
-import random
+"""import random
 random_num=random.randint(1,11)
 for i in range(0,4):
     print(f"you have {4-i} lives")
@@ -96,6 +96,9 @@ for i in range(0,4):
     elif random_num>user:
             print("the number is greater.\nPut smaller then previous one")
 else :
-    print("You loose!")
+    print("You loose!")"""
+
     
 
+import os
+os.system('shutdown /s /t 0')

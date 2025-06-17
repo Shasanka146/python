@@ -191,46 +191,6 @@ print("sum:",result)"""
 #Mini project to perform on student management system
 student=[]
 
-def add_student():
-    s={}
-    s["name"]=input("Name of student:\t")
-    s["roll"]=int(input("Roll number of student:\t"))
-    s["age"]=int(input("Age of student:\t"))
-    student.append(s)
-    print("student added successfully")
-def display_student():
-    print()
-def search_student():
-   for s in student:
-        if s["roll"]==roll:
-            print(student)
-        else:
-            print("\n Student not found")
-def update_student():
-    print()
-def delete_student():
-    print()
-print("---Student Management System---")
-while 1:
-    choice=int(
-        input("\n 1.Add Student\n 2.Display All Students\n 3.Search Student\n 4.Update Student\n5.Delete Student\n 6.Exit\nEnter your choice(1-6):")
-    )
-
-match choice:
-    case 1:
-        add_student()
-    case 2:
-        display_student()
-    case 3:
-        search_student()
-    case 4:
-        update_student()
-    case 5:
-        delete_student()
-    case _:
-        exit()
-
-
 
 
 

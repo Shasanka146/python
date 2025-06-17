@@ -86,13 +86,16 @@ dog1=dog('jonson',7,'golden','german-shepherd')
 print(Dog1.speak())
 """
 
-   #list compression technique     
-# student1=[]
-# for i in range(1,10):
-#     student1.append(i)
-# student2=[i for i in range(1,10)]
-# print(student1,student2)
-#comprehension of inheritance      
+   #list compression technique  
+"""   
+student1=[]# for i in range(1,10):
+student1.append(i)
+student2=[i for i in range(1,10)]
+print(student1,student2) """
+
+
+#comprehension of inheritance 
+"""     
 class Root:
     f='root'
 class A(Root):
@@ -102,14 +105,9 @@ class B(Root):
 class C(A,B):
     fx='C'
 
-c=C()
-print(c.f)
-print(C.__mro__)
-print([cls.__name__ for cls in C.__mro__])
-
-
-    
-
-
+    c=C()
+    print(c.f)
+    print(C.__mro__)
+    print([cls.__name__ for cls in C.__mro__])"""
 
 
